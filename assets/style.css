@@ -1,0 +1,38 @@
+body {
+  font-family: "Arima", cursive;
+  font-family: "Merriweather", serif;
+  background-color: rgb(175, 146, 201);
+}
+
+a {
+  text-decoration: none;
+}
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: aqua;
+  text-align: center;
+  border-radius: 7px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+}
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+
+.btn {
+  width: 50px;
+  height: 30px;
+  margin: 35px;
+  color: grey;
+  font-weight: bold;
+  background-color: bisque;
+}
